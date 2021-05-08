@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.Login"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg">
+
+    <StackLayout>
+        <Grid>
+            <StackLayout Margin="50,50,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HeightRequest="560" HorizontalOptions="FillAndExpand" BorderColor="White">
+                    <StackLayout>
+                        <Label Text="RecFacial" TextColor="White" FontSize="Title" FontAttributes="Bold"></Label>
+                        <Label Text="Inicio de sesión" TextColor="White" FontSize="Default"></Label>
+                        <StackLayout Margin="0,20,0,0">
+                            <Label TextColor ="White" Text="Ingrese su código de empleado"></Label>
+                            <Entry BackgroundColor="#242424" Placeholder="Código de empleado" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout Margin="0,20,0,0">
+                            <Label TextColor ="White" Text="Ingrese su clave de seguridad"></Label>
+                            <Entry  BackgroundColor="#242424" Placeholder="Clave de seguridad" PlaceholderColor ="White" IsPassword="True" TextColor="White" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="False" Color="White"></CheckBox>
+                            <Label TextColor ="White" Text="Recordar mis credenciales" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Iniciar sesión" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                            <Button Text="Registrarse" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                            <Button Text="Recuperar cuenta" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\memoa\source\repos\RecFacial\RecFacial\bin\Debug\netstandard2.0\RecFacial.deps.json
+C:\Users\memoa\source\repos\RecFacial\RecFacial\bin\Debug\netstandard2.0\RecFacial.dll
+C:\Users\memoa\source\repos\RecFacial\RecFacial\bin\Debug\netstandard2.0\ref\RecFacial.dll
+C:\Users\memoa\source\repos\RecFacial\RecFacial\bin\Debug\netstandard2.0\RecFacial.pdb
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.csprojAssemblyReference.cache
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.AssemblyInfoInputs.cache
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.AssemblyInfo.cs
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.csproj.CoreCompileInputs.cache
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.dll
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\ref\RecFacial.dll
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\RecFacial.pdb
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\memoa\source\repos\RecFacial\RecFacial\obj\Debug\netstandard2.0\Register.xaml.g.cs
