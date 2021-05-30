@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,16 +11,70 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Register.xaml.cs">
+    <Reference Include="System.Data.SqlClient">
+      <HintPath>C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.10\ref\uap10.0.15138\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AccountControl\Recover.xaml.cs">
+      <DependentUpon>Recover.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="QRCodeLib\QRcode.xaml.cs">
+      <DependentUpon>QRcode.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="FacialRecognitionLib\FacialRecognition.xaml.cs">
+      <DependentUpon>FacialRecognition.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainMenu\MainScreenAdmin.xaml.cs">
+      <DependentUpon>MainScreenAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainMenu\MainScreenUser.xaml.cs">
+      <DependentUpon>MainScreenUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="AccountControl\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Login.xaml.cs">
+    <Compile Update="AccountControl\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Update="RegisterConfirmation\RegisterPendList.xaml.cs">
+      <DependentUpon>RegisterPendList.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ReportGesture\AttendanceRepList.xaml.cs">
+      <DependentUpon>AttendanceRepList.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ReportGesture\ReportFormAdmin.xaml.cs">
+      <DependentUpon>ReportFormAdmin.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="EnterpriseInformation\EntInfoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RegisterConfirmation\RegisterForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RegisterConfirmation\RegisterPendList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ReportGesture\ReportDetails\AttendanceRepDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ReportGesture\ReportForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ReportGesture\ReportListSelector.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.AccountControl.Recover"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+        <Grid>
+            <StackLayout Margin="50,50,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HeightRequest="560" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="RECUPERAR CUENTA" TextColor="White" FontSize="Title" FontAttributes="Bold"></Label>
+                        <StackLayout>
+                            <Label Text="Si perdio su cuenta, por favor revise su correo electronico para poder modificar los datos de su cuenta, luego de clic en recuperar cuenta."></Label>
+                        </StackLayout>
+                        <StackLayout Margin="0,20,0,0">
+                            <Label TextColor ="White" Text="Ingrese su correo electrónico"></Label>
+                            <Entry  BackgroundColor="#242424" Placeholder="Correo electrónico" PlaceholderColor ="White" IsPassword="True" TextColor="White" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                            <Button Text="Recuperar" TextColor="White" BackgroundColor="#002440" HorizontalOptions="End" Clicked="LoginButtonClicked"></Button>
+                            <Button Text="Cancelar" TextColor="White" BackgroundColor="#002440" HorizontalOptions="End" Clicked="Button_Clicked_1"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

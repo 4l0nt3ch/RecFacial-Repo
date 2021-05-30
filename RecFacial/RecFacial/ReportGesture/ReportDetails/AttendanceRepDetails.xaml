@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.ReportGesture.ReportDetails.AttendanceRepDetails"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Margin="0,50,0,50">
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="DETALLES DE REPORTE DE ACCESO" TextColor="White" FontSize="Large"></Label>
+                        <Label Text="Aquí se detalla a continuación los parametros del reporte de acceso controlado por el sistema de acceso por reconocimiento facial, si hay alguna discrepancia con algunos de los datos ingresados, por favor contactar con el administrador." TextColor="White"></Label>
+                        <Frame BackgroundColor="Black" Margin="0,50,0,0" BorderColor="White">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="Día de jornada" TextColor="White"></Label>
+                                        <Label Text="Asistencia del empleado" TextColor="White"></Label>
+                                        <Label Text="Hora de inicio" TextColor="White"></Label>
+                                        <Label Text="Método de acceso" TextColor="White"></Label>
+                                        <Label Text="Hora de fin" TextColor="White"></Label>
+                                        <Label Text="Método de salida" TextColor="White"></Label>
+                                        <Label Text="Empleado supervisor" TextColor="White"></Label>
+                                        <Label Text="Tiempo total en el plantel" TextColor="White"></Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label x:Name="LABOUR_DAY" Text="LABOUR_DAY" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="EMP_ASSIST" Text="EMP_ASSIST" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="START_LABOUR_HOUR" Text="START_LABOUR_HOUR" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="START_METHOD" Text="START_METHOD" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="END_LABOUR_HOUR" Text="END_LABOUR_HOUR" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="END_METHOD" Text="END_METHOD" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="EMP_SUPERV" Text="EMP_SUPERV" TextColor="White" BackgroundColor="Black"></Label>
+                                        <Label x:Name="TOTAL_TIME_IN_BRANCH" Text="TOTAL_TIME_IN_BRANCH" TextColor="White" BackgroundColor="Black"></Label>
+                                    </StackLayout>
+                                </StackLayout>
+                                <StackLayout Margin="0,40,0,0">
+                                    <Button Text="Reportar a administrador" BackgroundColor="Orange" ></Button>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <StackLayout Margin="0,50,0,0">
+                            <Button Text="Atrás" BackgroundColor="DarkRed" TextColor="White"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content> 
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.MainMenu.MainScreenAdmin"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+        <Grid>
+            <ScrollView Margin="50,100,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HorizontalOptions="FillAndExpand">
+                    <StackLayout Margin="0,50,0,0">
+                        <StackLayout Margin="0,0,0,50">
+                            <Frame HorizontalOptions="Center" WidthRequest="150" HeightRequest="150" CornerRadius="150" x:Name="USER_PHOTO"></Frame>
+                            <Label Text="MENÚ PRINCIPAL DE USUARIO" TextColor="White" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                        </StackLayout>
+                        <Button Text="Reconocimiento facial" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="FacialRecognitionButtonClicked"></Button>
+                        <Button Text="Código QR" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="QRCodeRecongitionButtonClicked"></Button>
+                        <Button Text="Reportes de acceso y salida" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="ReportListSelectorButtonClicked"></Button>
+                        <Button Text="Responder a empleado" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="AttendanceReportListButtonClicked"></Button>
+                        <Button Text="Información de la empresa" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="EnterpriseInfoAccessClicked"></Button>
+                        <Button Text="Gestionar alta de empleados" FontSize="Medium" BackgroundColor="#002440" TextColor="White" Clicked="EnterpriseInfoAccessClicked"></Button>
+                        <Button Text="Cerrar sesión" FontSize="Medium" BackgroundColor="#420000" TextColor="White" Clicked="LogoutButtonClicked"></Button>
+                    </StackLayout>
+                </Frame>
+            </ScrollView>
+        </Grid>
+    </StackLayout>
+</ContentPage>

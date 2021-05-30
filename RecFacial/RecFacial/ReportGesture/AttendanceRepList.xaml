@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.ReportGesture.AttendanceRepList"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <StackLayout Margin="0,50,0,0">
+                    <StackLayout>
+                        <Frame BackgroundColor="Black" HasShadow="True">
+                            <StackLayout>
+                                <Label Text="LISTA DE REPORTES DE EMPLEADO" TextColor="WHITE" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                                <Label Text="Aquí tendrás una lista de reportes de realimentación, así como malfuncionamiento o gestión erronea del sistema RecFacial, seleccione un reporte para gestionar una respuesta al empleado." TextColor="White"></Label>
+                                <StackLayout>
+                                    <Frame x:Name="RegisterUpdate" MinimumHeightRequest="300"  BackgroundColor="Black"></Frame>
+                                    <StackLayout>
+                                        <Button Text="Actualizar" Background="Orange" TextColor="White"></Button>
+                                    </StackLayout>
+                                    <Frame x:Name="RegisterList" HeightRequest="300" BackgroundColor="Black">
+                                        <ScrollView>
+
+                                        </ScrollView>
+                                    </Frame>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                        <Button Text="Seleccionar" BackgroundColor="Green" TextColor="White"></Button>
+                                        <Button Text="Atrás" BackgroundColor="Brown" TextColor="White"></Button>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

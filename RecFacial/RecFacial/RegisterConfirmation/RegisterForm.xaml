@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.RegisterConfirmation.RegisterForm"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <ScrollView Margin="0,50,0,0">
+                    <StackLayout>
+                        <Frame BackgroundColor="Black" HasShadow="True">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="CONFIRMAR REGISTRO EMPLEADOS" TextColor="White" BackgroundColor="Black" FontSize="Large"></Label>
+                                <Label TextColor="White" Text="Un usuario quiere darse de alta con la aplicación RecFacial, corrobore si los datos corresponden con algún proceso disponbile de inscripción de empleado, y dé clic en aceptar de ser así."></Label>
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="Black" WidthRequest="150">
+                                        <StackLayout>
+                                            <StackLayout Orientation="Vertical">
+                                                <StackLayout Margin="0,50,0,50">
+                                                    <Label Text="Fotografía" TextColor="White"></Label>
+                                                </StackLayout>
+                                                <StackLayout>
+                                                    <Label Text="Nombre Usuario" TextColor="White"></Label>
+                                                    <Label Text="Apellido Usuario" TextColor="White"></Label>
+                                                    <Label Text="Edad Usuario" TextColor="White"></Label>
+                                                    <Label Text="Dirección Usuario" TextColor="White"></Label>
+                                                    <Label Text="Día de nacimiento" TextColor="White"></Label>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+                                                    <Label Text="Empresa afiliada" TextColor="White"></Label>
+                                                    <Label Text="Puesto deseado" TextColor="White"></Label>
+                                                    <Label Text="Fecha de ingreso" TextColor="White"></Label>
+                                                    <Label Text="Departamento" TextColor="White"></Label>
+                                                    <Label Text="Sucursal de empresa" TextColor="White"></Label>
+                                                    <Label Text="Tipo de usuario" TextColor="White"></Label>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Vertical" Margin="0,60,0,0">
+                                                    <Label Text="Código de empleado" TextColor="White"></Label>
+                                                    <Label Text="Clave de empleado" TextColor="White"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                    </Frame>
+                                    <Frame BackgroundColor="Black">
+                                        <StackLayout Orientation="Vertical">
+                                            <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                                                <Image WidthRequest="100" HeightRequest="100" BackgroundColor="DarkSlateGray" x:Name="resultImage"/>
+                                            </StackLayout>
+                                            <StackLayout Margin="0,20,0,0">
+                                                <Label x:Name="USER_NAME" Text="USER_NAME" TextColor="White"></Label>
+                                                <Label x:Name="USER_LASTNAME" Text="USER_LASTNAME" TextColor="White"></Label>
+                                                <Label x:Name="USER_AGE" Text="USER_AGE" TextColor="White"></Label>
+                                                <Label x:Name="USER_ADDRESS" Text="USER_ADDRESS" TextColor="White"></Label>
+                                                <Label x:Name="USER_DOB" Text="USER_DOB" TextColor="White"></Label>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+                                                <Label x:Name="ENT_NAME" Text="ENT_NAME" TextColor="White"></Label>
+                                                <Label x:Name="USER_ROLE" Text="USER_ROLE" TextColor="White"></Label>
+                                                <Label x:Name="USER_HIRED_DATE" Text="USER_HIRED_DATE" TextColor="White"></Label>
+                                                <Label x:Name="USER_DEPARTMENT" Text="USER_DEPARTMENT" TextColor="White"></Label>
+                                                <Label x:Name="ENT_BRANCH" Text="ENT_BRANCH" TextColor="White"></Label>
+                                                <Label x:Name="USER_TYPE" Text="USER_TYPE" TextColor="White"></Label>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Vertical" Margin="0,60,0,0">
+                                                <Label x:Name="USER_ACCOUNT" Text="USER_ACCOUNT" TextColor="White"></Label>
+                                                <Label x:Name="USER_PASSWORD" Text="USER_PASSWORD" TextColor="White"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                    </Frame>
+                                </StackLayout>
+                                <StackLayout Margin="0,50,0,0" Orientation="Vertical">
+                                    <Button Text="CONFIRMAR REGISTRO" BackgroundColor="Green" TextColor="White"></Button>
+                                    <Button Text="RECHAZAR REGISTRO" BackgroundColor="DarkRed" TextColor="White"></Button>
+                                    <Button Text="CANCELAR" BackgroundColor="Black" TextColor="White"></Button>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

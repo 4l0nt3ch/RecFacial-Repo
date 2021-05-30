@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj": {}
+    "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj": {
+    "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
+        "projectUniqueName": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
         "projectName": "RecFacial.Android",
-        "projectPath": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
+        "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
         "packagesPath": "C:\\Users\\memoa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial.Android\\obj\\",
+        "outputPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\RecFacial.csproj": {
-                "projectPath": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\RecFacial.csproj"
+              "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj": {
+                "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj"
               }
             }
           }
@@ -44,24 +44,36 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.8.0.1451, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\RecFacial.csproj": {
+    "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\RecFacial.csproj",
+        "projectUniqueName": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
         "projectName": "RecFacial",
-        "projectPath": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\RecFacial.csproj",
+        "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
         "packagesPath": "C:\\Users\\memoa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\memoa\\source\\repos\\RecFacial\\RecFacial\\obj\\",
+        "outputPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -102,11 +114,23 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.8.0.1451, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [

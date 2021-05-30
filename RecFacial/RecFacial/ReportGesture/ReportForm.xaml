@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.ReportGesture.ReportForm"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Margin="0,50,0,50">
+                <StackLayout>
+                    <Label Text="CONTACTAR A ADMINISTRADOR" TextColor="White" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+                    <Label Text="Ingrese un mensaje de retroalimentación de la aplicación RecFacial, aclare las dudas que se necesite resolver." TextColor="White"></Label>
+                    <StackLayout>
+                        <Label TextColor ="White" Text="Asunto"></Label>
+                        <Editor BackgroundColor="#242424" Placeholder="report_use_theme" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand"></Editor>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label TextColor ="White" Text="Correo"></Label>
+                        <Editor BackgroundColor="#242424" Placeholder="example@hotmail.com" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand"></Editor>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label TextColor ="White" Text="Descripción"></Label>
+                        <Editor BackgroundColor="#242424" Placeholder="report_use_description" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand" WidthRequest="300" HeightRequest="300"></Editor>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Mandar Reporte" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                        <Button Text="Atrás" TextColor="White" BackgroundColor="#420000" VerticalOptions="EndAndExpand"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

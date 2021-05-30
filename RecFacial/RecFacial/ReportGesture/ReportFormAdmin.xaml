@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.ReportGesture.ReportFormAdmin"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Margin="0,50,0,50">
+                <StackLayout>
+                    <Label Text="RESPONDER EMPLEADO" TextColor="White" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+                    <Label Text="Detalle de manera adecuada lo sucedido con el imprevisto del empleado, se necesita que se detalle de manera adecuada la situación y una solución o realimentación de la aplicación." TextColor="White"></Label>
+                    <StackLayout>
+                        <Label TextColor ="White" Text="Asunto"></Label>
+                        <Editor BackgroundColor="#242424" Placeholder="report_use_theme" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand"></Editor>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label TextColor ="White" Text="Descripción"></Label>
+                        <Frame BackgroundColor="black" HorizontalOptions="FillAndExpand" WidthRequest="300" HeightRequest="300">
+                            <StackLayout>
+                                <Label x:Name="label_description_text" Text="LABEL_MESSAGE_DESCRIPTION" TextColor="White"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Editor x:Name="report_use_theme_answer" BackgroundColor="#242424" Placeholder="report_use_theme_answer" PlaceholderColor ="White" TextColor="White" HorizontalOptions="FillAndExpand"  WidthRequest="300" HeightRequest="300"></Editor>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Mandar Mensaje" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                        <Button Text="Atrás" TextColor="White" BackgroundColor="#420000" VerticalOptions="EndAndExpand"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

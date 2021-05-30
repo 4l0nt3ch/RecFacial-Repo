@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.AccountControl.Register"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+    <StackLayout>
+        <Grid>
+            <ScrollView Margin="50,50,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <Label Text="CREAR CUENTA DE ACCESO" TextColor="White" FontSize="Large" FontAttributes="Bold"></Label>
+                            <Label Text="Por favor ingrese TODOS los campos solicitados, se necesita toda la información requerida, cuando todos los datos estén completos, por favor de clic en siguiente." TextColor="White" FontSize="Default" FontAttributes="Italic"></Label>
+                            
+                            <StackLayout Margin="0,20,0,0">
+                                <Label Text="Datos generales" TextColor="White" FontSize="Title"></Label>
+                                <Label TextColor ="White" Text="Nombre del empleado"></Label>
+                                <Entry x:Name="FIRST_NAME" 
+                                       BackgroundColor="#242424" 
+                                       Placeholder="FIRST_NAME" 
+                                       PlaceholderColor ="White" TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Apellido del empleado"></Label>
+                                <Entry x:Name="LAST_NAME" 
+                                       BackgroundColor="#242424" 
+                                       Placeholder="LAST_NAME" 
+                                       PlaceholderColor ="White" 
+                                       TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Edad del empleado"></Label>
+                                <Entry x:Name="AGE" 
+                                       BackgroundColor="#242424" 
+                                       Placeholder="AGE" 
+                                       PlaceholderColor ="White" 
+                                       TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Dirección del empleado"></Label>
+                                <Entry x:Name="ADDRESS" 
+                                       BackgroundColor="#242424" 
+                                       Placeholder="ADDRESS" 
+                                       PlaceholderColor ="White" 
+                                       TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Fecha de nacimiento"></Label>
+                                <DatePicker BackgroundColor="#242424"
+                                        TextColor="White"
+                                        x:Name="DOB">
+                                </DatePicker>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Correo"></Label>
+                                <Entry BackgroundColor="#242424" 
+                                   Placeholder="EMAIL" 
+                                   PlaceholderColor ="White" 
+                                   TextColor="White" 
+                                   HorizontalOptions="FillAndExpand"
+                                   x:Name="EMAIL"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Contraseña"></Label>
+                                <Entry x:Name="PASSWORD" 
+                                       IsPassword="True" 
+                                       BackgroundColor="#242424"
+                                       Placeholder="PASSWORD" 
+                                       PlaceholderColor ="White" 
+                                       TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Confirmar contraseña"></Label>
+                                <Entry x:Name="PASSWORD_CONF" 
+                                       IsPassword="True" 
+                                       BackgroundColor="#242424" 
+                                       Placeholder="CONF_PASSWORD" 
+                                       PlaceholderColor ="White" TextColor="White" 
+                                       HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            
+                        <StackLayout Margin="0,20,0,0">
+                                <Label Text="Datos de empresa" TextColor="White" FontSize="Title"></Label>
+                                <Label TextColor ="White" Text="Nombre de la empresa"></Label>
+                            <Entry x:Name="ENT_NAME" 
+                                   BackgroundColor="#242424" 
+                                   Placeholder="ENT_NAME" 
+                                   PlaceholderColor ="White" 
+                                   TextColor="White" 
+                                   HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Puesto"></Label>
+                            <Picker x:Name="ROLE"
+                                    BackgroundColor="#242424"
+                                    TitleColor="White"
+                                    TextColor="White"
+                                    Title="ROLE">
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Fecha de ingreso"></Label>
+                            <DatePicker BackgroundColor="#242424"
+                                        TextColor="White"
+                                        x:Name="DATE_ORIGIN">
+                            </DatePicker>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Departamento"></Label>
+                            <Picker x:Name="DEPARTMENT"
+                                    BackgroundColor="#242424"
+                                    TitleColor="White"
+                                    TextColor="White"
+                                    Title="DEPARTMENT">
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Sucursal de empresa"></Label>
+                            <Picker x:Name="BRANCH"
+                                    BackgroundColor="#242424"
+                                    TitleColor="White"
+                                    TextColor="White"
+                                    Title="BRANCH">
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Tipo de usuario"></Label>
+                            <Picker x:Name="USER_TYPE"
+                                    BackgroundColor="#242424"
+                                    TitleColor="White"
+                                    TextColor="White"
+                                    Title="USER_TYPE">
+                            </Picker>
+                        </StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Fotografía"></Label>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image WidthRequest="300" HeightRequest="300" x:Name="resultImage"/>
+                                    <Button Text="Escoger fotografía" Clicked="ChooseImageButtonClicked" BackgroundColor="Black" TextColor="White"></Button>
+                                    <Button Text="Tomar fotografía" Clicked="TakePhotoButtonClicked"  BackgroundColor="Black" TextColor="White"></Button>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Continuar" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
+                                <Button Text="Cancelar" TextColor="White" BackgroundColor="#420000" VerticalOptions="EndAndExpand"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                </Frame>
+            </ScrollView>
+        </Grid>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

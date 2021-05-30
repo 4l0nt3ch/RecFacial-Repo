@@ -12,7 +12,8 @@ using System.Text;
 
 namespace RecFacial.Droid
 {
-    [Activity(Label = "SplashActivity", 
+    [Activity(Label = "RecFacial", 
+            Icon = "@mipmap/RecFacialIcon",
             Theme = "@style/SplashTheme",
             MainLauncher = true, 
             NoHistory = true, 

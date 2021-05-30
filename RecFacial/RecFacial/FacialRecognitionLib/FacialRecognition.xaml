@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.FacialRecognitionLib.FacialRecognition"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+        <Grid>
+            <StackLayout Margin="50,50,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HeightRequest="560" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Emparejamiento con reconocimiento facial." TextColor="White" FontSize="Large"></Label>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Fotografía"></Label>
+                            <Image WidthRequest="300" HeightRequest="300" x:Name="resultImage"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Seleccionar fotografía" Clicked="ChoosePhotoButtonClicked" BackgroundColor="MidnightBlue" TextColor="White"></Button>
+                                <Button Text="Tomar fotografía" Clicked="GeneratePhotoButtonClicked"  BackgroundColor="MidnightBlue" TextColor="White"></Button>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical">
+                                <Button Text="Mandar a sistema" Clicked="SendPhotoButtonClicked"  BackgroundColor="#002440" TextColor="White"></Button>
+                                <Button Text="Cancelar" Clicked= "ButtonReturn"  BackgroundColor="#420000" TextColor="White"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

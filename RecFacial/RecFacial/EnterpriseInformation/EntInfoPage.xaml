@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.EnterpriseInformation.EntInfoPage"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <ScrollView Margin="50,50,50,50">
+                    <Frame BackgroundColor="Black" HasShadow="True" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <StackLayout Margin="0,30,0,30">
+                                <Frame HorizontalOptions="Center" WidthRequest="250" HeightRequest="250" CornerRadius="250" x:Name="ENT_PHOTO" BorderColor="White" BackgroundColor="Gray"></Frame>
+                            </StackLayout>
+                            <Label Text="INFORMACIÓN DE LA EMPRESA" FontSize="Large" TextColor="White"></Label>
+                            <StackLayout Margin="0,40,0,0" Orientation="Vertical">
+                                <Label Text="NOMBRE DE LA EMPRESA" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0" Orientation="Vertical">
+                                <Label Text="FECHA DE ACTUALIZACIÓN:" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0" Orientation="Vertical">
+                                <Label Text="DEPARTAMENTO ACTUAL DEL USUARIO" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0" Orientation="Vertical">
+                                <Label Text="SUCURSAL DE LA EMPRESA" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0" Orientation="Vertical">
+                                <Label Text="NUMERO DE TELÉFONO" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0" Orientation="Vertical">
+                                <Label Text="DIRECCIÓN DE LA SUCURSAL DE LA EMPRESA" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,40,0,0">
+                                <Label Text="LICENCIA DE EMPRESA" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0">
+                                <Label Text="FECHA DE ACTIVACIÓN" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0">
+                                <Label Text="FECHA DE FINALIZACIÓN" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0">
+                                <Label Text="TIPO DE SERVICIO" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0">
+                                <Label Text="CORREO DE CONTACTO" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,0">
+                                <Label Text="TELÉFONO DE CONTACTO" TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                                <Frame MinimumHeightRequest="200" BackgroundColor="Black" BorderColor="Gray"></Frame>
+                            </StackLayout>
+                            <StackLayout Margin="0,50,0,0" Orientation="Horizontal">
+                                <Label Text="2021 RecFac Inc., Todos los derechos están reservados." TextColor="White" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                            </StackLayout>
+                            <StackLayout Margin="0,20,0,0">
+                                <Button Text="Atrás" FontSize="Medium" BackgroundColor="#420000" TextColor="White" Clicked="ReturnBackMainMenuClicked"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </ScrollView>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecFacial.QRCodeLib.QRcode"
+             BackgroundImageSource="https://www.wallpaperbetter.com/wallpaper/685/872/907/blue-textured-1080P-wallpaper-middle-size.jpg"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+        <Grid>
+            <StackLayout Margin="50,50,50,50">
+                <Frame BackgroundColor="Black" HasShadow="True" HeightRequest="560" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Emparejamiento con código QR." TextColor="White" FontSize="Large"></Label>
+                        <StackLayout>
+                            <Label TextColor ="White" Text="Código QR"></Label>
+                            <StackLayout WidthRequest="300" HeightRequest="300" x:Name="resultImage"></StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Generar QR" Clicked="GenerateQRButtonClicked"  BackgroundColor="MidnightBlue" TextColor="White"></Button>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical">
+                                <Button Text="Cancelar" BackgroundColor="#420000" TextColor="White"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

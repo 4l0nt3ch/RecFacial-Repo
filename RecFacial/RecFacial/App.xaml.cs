@@ -9,7 +9,7 @@ namespace RecFacial
         public App()
         {
             InitializeComponent();
-            MainPage = new Login();
+            MainPage = new NavigationPage(new AccountControl.Login());
         }
 
         protected override void OnStart()
