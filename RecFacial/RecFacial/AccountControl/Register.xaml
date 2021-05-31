@@ -102,7 +102,14 @@
                                     TitleColor="White"
                                     TextColor="White"
                                     Title="ROLE">
-                            </Picker>
+                                    <Picker.Items>
+                                        <x:String>Desarrollador</x:String>
+                                        <x:String>Gerente</x:String>
+                                        <x:String>Vendedor</x:String>
+                                        <x:String>Técnico</x:String>
+                                        <x:String>Practicante</x:String>
+                                    </Picker.Items>
+                                </Picker>
                         </StackLayout>
                         <StackLayout>
                             <Label TextColor ="White" Text="Fecha de ingreso"></Label>
@@ -118,6 +125,12 @@
                                     TitleColor="White"
                                     TextColor="White"
                                     Title="DEPARTMENT">
+                                    <Picker.Items>
+                                        <x:String>Seguridad</x:String>
+                                        <x:String>Administración</x:String>
+                                        <x:String>Logística</x:String>
+                                        <x:String>Sistemas</x:String>
+                                    </Picker.Items>                             
                             </Picker>
                         </StackLayout>
                         <StackLayout>
@@ -127,16 +140,36 @@
                                     TitleColor="White"
                                     TextColor="White"
                                     Title="BRANCH">
-                            </Picker>
+                                    <Picker.Items>
+                                        <x:String>LindaVista</x:String>
+                                        <x:String>DiegoDiaz</x:String>
+                                        <x:String>Concordia</x:String>
+                                        <x:String>Universidad</x:String>
+                                        <x:String>Mederos</x:String>
+                                    </Picker.Items>
+                                </Picker>
                         </StackLayout>
-                        <StackLayout>
+                            <StackLayout>
+                                <Label TextColor ="White" Text="Nombre de usuario"></Label>
+                                <Entry BackgroundColor="#242424" 
+                                   Placeholder="USER_NAME" 
+                                   PlaceholderColor ="White" 
+                                   TextColor="White" 
+                                   HorizontalOptions="FillAndExpand"
+                                   x:Name="USER_NAME"></Entry>
+                            </StackLayout>
+                            <StackLayout>
                             <Label TextColor ="White" Text="Tipo de usuario"></Label>
                             <Picker x:Name="USER_TYPE"
                                     BackgroundColor="#242424"
                                     TitleColor="White"
                                     TextColor="White"
                                     Title="USER_TYPE">
-                            </Picker>
+                                    <Picker.Items>
+                                        <x:String>Usuario</x:String>
+                                        <x:String>Administrador</x:String>
+                                    </Picker.Items>
+                                </Picker>
                         </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Fotografía"></Label>

@@ -20,8 +20,8 @@ namespace RecFacial.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
-            LoadApplication(new RecFacial.App());
+            String dbPath = FileAccess.GetLocalFilePath("recfacial.db3");
+            LoadApplication(new RecFacial.App(dbPath));
         }
     }
 }

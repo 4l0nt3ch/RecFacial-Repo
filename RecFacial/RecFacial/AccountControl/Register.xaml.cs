@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Essentials;
-using RecFacial.DatabaseDriver;
+using RecFacial.DatabaseDriver.EmployeeData;
 
 namespace RecFacial.AccountControl
 {
@@ -24,15 +24,18 @@ namespace RecFacial.AccountControl
                 Title = "Por favor escoge una foto"
             });
 
-            if (photoResult != null) {
+            if (photoResult != null)
+            {
                 var streamResult = await photoResult.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => streamResult);
             }
         }
-        async void TakePhotoButtonClicked(object sender, EventArgs e) {
+        async void TakePhotoButtonClicked(object sender, EventArgs e)
+        {
             var photoResult = await MediaPicker.CapturePhotoAsync();
 
-            if (photoResult != null) {
+            if (photoResult != null)
+            {
                 var streamResult = await photoResult.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => streamResult);
             }

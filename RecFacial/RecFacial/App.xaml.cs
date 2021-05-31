@@ -2,13 +2,14 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace RecFacial
 {
     public partial class App : Application
     {
         public App()
         {
-            InitializeComponent();
+            InitializeComponent();            
             MainPage = new NavigationPage(new AccountControl.Login());
         }
 
