@@ -1007,22 +1007,25 @@
   },
   "packageFolders": {
     "C:\\Users\\memoa\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
+      "projectUniqueName": "C:\\Users\\memoa\\Source\\Repos\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
       "projectName": "RecFacial",
-      "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
+      "projectPath": "C:\\Users\\memoa\\Source\\Repos\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj",
       "packagesPath": "C:\\Users\\memoa\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\obj\\",
+      "outputPath": "C:\\Users\\memoa\\Source\\Repos\\RecFacial-Repo\\RecFacial\\RecFacial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\memoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1086,7 +1089,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

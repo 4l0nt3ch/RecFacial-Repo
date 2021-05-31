@@ -16,7 +16,7 @@
                             <StackLayout Margin="0,20,0,0">
                                 <Label Text="Datos generales" TextColor="White" FontSize="Title"></Label>
                                 <Label TextColor ="White" Text="Nombre del empleado"></Label>
-                                <Entry x:Name="FIRST_NAME" 
+                                <Entry x:Name="TXT_FIRST_NAME" 
                                        BackgroundColor="#242424" 
                                        Placeholder="FIRST_NAME" 
                                        PlaceholderColor ="White" TextColor="White" 
@@ -24,7 +24,7 @@
                             </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Apellido del empleado"></Label>
-                                <Entry x:Name="LAST_NAME" 
+                                <Entry x:Name="TXT_LAST_NAME" 
                                        BackgroundColor="#242424" 
                                        Placeholder="LAST_NAME" 
                                        PlaceholderColor ="White" 
@@ -33,7 +33,7 @@
                             </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Edad del empleado"></Label>
-                                <Entry x:Name="AGE" 
+                                <Entry x:Name="TXT_AGE" 
                                        BackgroundColor="#242424" 
                                        Placeholder="AGE" 
                                        PlaceholderColor ="White" 
@@ -42,7 +42,7 @@
                             </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Dirección del empleado"></Label>
-                                <Entry x:Name="ADDRESS" 
+                                <Entry x:Name="TXT_ADDRESS" 
                                        BackgroundColor="#242424" 
                                        Placeholder="ADDRESS" 
                                        PlaceholderColor ="White" 
@@ -53,7 +53,7 @@
                                 <Label TextColor ="White" Text="Fecha de nacimiento"></Label>
                                 <DatePicker BackgroundColor="#242424"
                                         TextColor="White"
-                                        x:Name="DOB">
+                                        x:Name="DP_DOB">
                                 </DatePicker>
                             </StackLayout>
                             <StackLayout>
@@ -63,11 +63,11 @@
                                    PlaceholderColor ="White" 
                                    TextColor="White" 
                                    HorizontalOptions="FillAndExpand"
-                                   x:Name="EMAIL"></Entry>
+                                   x:Name="TXT_EMAIL"></Entry>
                             </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Contraseña"></Label>
-                                <Entry x:Name="PASSWORD" 
+                                <Entry x:Name="TXT_PASSWORD" 
                                        IsPassword="True" 
                                        BackgroundColor="#242424"
                                        Placeholder="PASSWORD" 
@@ -77,7 +77,7 @@
                             </StackLayout>
                             <StackLayout>
                                 <Label TextColor ="White" Text="Confirmar contraseña"></Label>
-                                <Entry x:Name="PASSWORD_CONF" 
+                                <Entry x:Name="TXT_PASSWORD_CONF" 
                                        IsPassword="True" 
                                        BackgroundColor="#242424" 
                                        Placeholder="CONF_PASSWORD" 
@@ -88,7 +88,7 @@
                         <StackLayout Margin="0,20,0,0">
                                 <Label Text="Datos de empresa" TextColor="White" FontSize="Title"></Label>
                                 <Label TextColor ="White" Text="Nombre de la empresa"></Label>
-                            <Entry x:Name="ENT_NAME" 
+                            <Entry x:Name="TXT_ENT_NAME" 
                                    BackgroundColor="#242424" 
                                    Placeholder="ENT_NAME" 
                                    PlaceholderColor ="White" 
@@ -97,7 +97,7 @@
                         </StackLayout>
                         <StackLayout>
                             <Label TextColor ="White" Text="Puesto"></Label>
-                            <Picker x:Name="ROLE"
+                            <Picker x:Name="PCK_ROLE"
                                     BackgroundColor="#242424"
                                     TitleColor="White"
                                     TextColor="White"
@@ -115,12 +115,12 @@
                             <Label TextColor ="White" Text="Fecha de ingreso"></Label>
                             <DatePicker BackgroundColor="#242424"
                                         TextColor="White"
-                                        x:Name="DATE_ORIGIN">
+                                        x:Name="DP_DATE_ORIGIN">
                             </DatePicker>
                         </StackLayout>
                         <StackLayout>
                             <Label TextColor ="White" Text="Departamento"></Label>
-                            <Picker x:Name="DEPARTMENT"
+                            <Picker x:Name="PCK_DEPARTMENT"
                                     BackgroundColor="#242424"
                                     TitleColor="White"
                                     TextColor="White"
@@ -135,7 +135,7 @@
                         </StackLayout>
                         <StackLayout>
                             <Label TextColor ="White" Text="Sucursal de empresa"></Label>
-                            <Picker x:Name="BRANCH"
+                            <Picker x:Name="PCK_BRANCH"
                                     BackgroundColor="#242424"
                                     TitleColor="White"
                                     TextColor="White"
@@ -156,11 +156,11 @@
                                    PlaceholderColor ="White" 
                                    TextColor="White" 
                                    HorizontalOptions="FillAndExpand"
-                                   x:Name="USER_NAME"></Entry>
+                                   x:Name="TXT_USER_NAME"></Entry>
                             </StackLayout>
                             <StackLayout>
                             <Label TextColor ="White" Text="Tipo de usuario"></Label>
-                            <Picker x:Name="USER_TYPE"
+                            <Picker x:Name="PCK_USER_TYPE"
                                     BackgroundColor="#242424"
                                     TitleColor="White"
                                     TextColor="White"
@@ -174,14 +174,14 @@
                             <StackLayout>
                                 <Label TextColor ="White" Text="Fotografía"></Label>
                                 <StackLayout Orientation="Horizontal">
-                                    <Image WidthRequest="300" HeightRequest="300" x:Name="resultImage"/>
+                                    <Image WidthRequest="300" HeightRequest="300" x:Name="IM_USER_IMAGE"/>
                                     <Button Text="Escoger fotografía" Clicked="ChooseImageButtonClicked" BackgroundColor="Black" TextColor="White"></Button>
                                     <Button Text="Tomar fotografía" Clicked="TakePhotoButtonClicked"  BackgroundColor="Black" TextColor="White"></Button>
                                 </StackLayout>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Button Text="Continuar" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand"></Button>
-                                <Button Text="Cancelar" TextColor="White" BackgroundColor="#420000" VerticalOptions="EndAndExpand"></Button>
+                                <Button Text="Continuar" TextColor="White" BackgroundColor="#002440" VerticalOptions="EndAndExpand" Clicked="EmpSubmit"></Button>
+                                <Button Text="Cancelar" TextColor="White" BackgroundColor="#420000" VerticalOptions="EndAndExpand" Clicked="CancelButtonClicked"></Button>
                             </StackLayout>
                         </StackLayout>
                 </Frame>

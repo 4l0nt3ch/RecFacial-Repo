@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ifdIDF/J6ozL8s8tyuEBI9yUYctnash3vRyWVxNmL76d5lWxYQuiGq0My8TKrbfs0dDTYcxQPvz5xp9yF5w0g==",
+  "dgSpecHash": "nzisbyIg0vqqOgftkSunJzE87EF5DwLyS5kG+o0cPV8GrLOlVoLxhtKVmAlzL8s6SkjaA9dwpczqyAA6i8fovg==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.iOS\\RecFacial.iOS.csproj",
+  "projectFilePath": "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial.iOS\\RecFacial.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\memoa\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\memoa\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
@@ -12,8 +12,8 @@
     "C:\\Users\\memoa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\memoa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\memoa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\memoa\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\memoa\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
     "C:\\Users\\memoa\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\memoa\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],

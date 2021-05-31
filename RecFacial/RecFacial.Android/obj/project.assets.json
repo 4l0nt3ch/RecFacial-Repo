@@ -2337,23 +2337,26 @@
   },
   "packageFolders": {
     "C:\\Users\\memoa\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
+      "projectUniqueName": "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
       "projectName": "RecFacial.Android",
-      "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
+      "projectPath": "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\RecFacial.Android.csproj",
       "packagesPath": "C:\\Users\\memoa\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\obj\\",
+      "outputPath": "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\memoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2367,8 +2370,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj": {
-              "projectPath": "D:\\Proyectos\\Xamarin\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj"
+            "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj": {
+              "projectPath": "C:\\Users\\memoa\\source\\repos\\RecFacial-Repo\\RecFacial\\RecFacial\\RecFacial.csproj"
             }
           }
         }

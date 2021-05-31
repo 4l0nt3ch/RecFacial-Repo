@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-T350</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
     <DefaultDevice>curso_xamarin</DefaultDevice>
+    <ActiveDebugProfile>Samsung SM-T350</ActiveDebugProfile>
   </PropertyGroup>
 </Project>
